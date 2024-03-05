@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: #1F374A;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-left: 90px;
+    float: left;
+}
+
+.navbar {
+    position: absolute;
+    right: 124px;
+    top: 18px;
+}
+
+.navbar>a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 8px;
+    padding-bottom: 6px;
+    margin: 0 13px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.navbar>a:hover {
+    transform: scale(1.2);
+    border-bottom: 1px solid yellow;
+}
+
+.navbar .services {
+    margin-right: 10px;
+}
+
+.service-icon {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.find {
+    padding-top: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 24px;
+    top: -1px;
+}
+
+.main {
+    margin-left: 102px;
+    width: 440px;
+    height: 450px;
+}
+
+#name {
+    width: 380px;
+    margin-top: 7px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#email {
+    width: 380px;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.sendbutton {
+    color: black;
+    background-color: rgb(246, 196, 45);
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.rightimg {
+    width: 620px;
+    height: 500px;
+    margin-top: 30px;
+    position: absolute;
+    right: 0px;
+    top: 90px;
+
+}
+
+.mainimg {
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.bottom {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 500px;
+    top: 66%;
+}
